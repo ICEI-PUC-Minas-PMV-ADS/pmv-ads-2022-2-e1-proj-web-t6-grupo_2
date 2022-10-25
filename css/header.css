@@ -31,13 +31,13 @@ header{
     padding-top: 22.5px;
 
 }
-ul{
+.header-nav-ul{
     display: flex;
     margin: 23px;
 
 
 }
-li{
+.header-nav-il{
     color: whitesmoke;
     list-style-type:none;
     cursor: pointer;
