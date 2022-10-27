@@ -1,0 +1,9 @@
+.caixa-pesquisa{
+    text-align: center;
+}
+#subtitulo-Lista-de-dicas{font-size: 32px;}
+.Lista-de-dicas-item{
+    color:#1B98E0;
+    font-size: 20px;
+    margin-top: 4px;
+}
