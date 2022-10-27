@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projeto</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/style-rodape.css">
+    <link rel="stylesheet" href="css/style-main-pesquisa.css">
 
 </head>
 
@@ -34,14 +36,16 @@
 
     <main>
         <!-- felipe -->
-        <div class="caixa-pesquisa"></div>
-        <h1>Segurança para todos</h1>
-        <form action="/action_page.php">
-            <input type="text" id="pesquisa" name="pesquisa" placeholder="E-mail, telefone e CPF">
-            <input type="submit" value="Verificar">
-        </form>
-        <div class="resultado">
-            {Mensagem provisória: Resultado vai aparecer aqui quando configurar o JS}
+        <div class="caixa-pesquisa">
+            <h1 class="título" id="título-principal">Segurança para todos</h1>
+            <h2 class="subtitulo" id="subtitulo-principal">Verifique se seu e-mail ou telefone foi vazado</h2>
+            <form action="/action_page.php" class="formulário" id="formulário-pesquisa">
+                <input type="text" id="pesquisa-campo" name="pesquisa" placeholder="E-mail, telefone e CPF">
+                <input type="submit" id="submit-pesquisa" value="Verificar">
+            </form>
+            <div class="resultado">
+                {Mensagem provisória: Resultado vai aparecer aqui quando configurar o JS}
+            </div>
         </div>
         <!-- César -->
         <div class="Dicas-de-segurança">
