@@ -3,7 +3,7 @@
     margin: 100px;
     padding: 30px;
     background-color: #13293D;   
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
 .título {
@@ -73,9 +73,5 @@
     transform: scale(1.1);
     box-shadow: 1px 1px 10px gray;
 }
-.resultado {
-    background-color: #006494;
-    margin: 20px;
-    padding: 20px;
-}
+
 

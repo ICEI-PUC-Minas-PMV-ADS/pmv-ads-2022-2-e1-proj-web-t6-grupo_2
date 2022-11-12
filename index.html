@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style-rodape.css">
     <link rel="stylesheet" href="css/style-main-pesquisa.css">
     <link rel="stylesheet" href="css/style-main-dicas.css">
+    <link rel="stylesheet" href="css/style-resultado.css">
 
     <!-- responsividade -->
     
@@ -23,7 +24,7 @@
     <header>
         <div class="logo">
             <a href="projeto.html">
-                <img src="logo.png" alt="LOGO" width="325">
+                <img src="imagens/Imagens/logo.png" alt="LOGO" width="325">
 
             </a>
         </div>
@@ -44,12 +45,14 @@
         <div class="caixa-pesquisa">
             <h1 class="título" id="título-principal">Segurança para todos</h1>
             <h2 class="subtitulo" id="subtitulo-principal">Verifique se seu e-mail ou telefone foi vazado</h2>
-            <form action="/action_page.php" class="formulário" id="formulário-pesquisa">
+            
+            <form class="formulário" id="formulário-pesquisa">
                 <input type="text" id="pesquisa-campo" name="pesquisa" placeholder="E-mail, telefone e CPF">
-                <input type="submit" id="submit-pesquisa" value="Verificar">
-            </form>
-            <div class="resultado">
-                {Mensagem provisória: Resultado vai aparecer aqui quando configurar o JS}
+                <button id="submit-pesquisa">Verificar</button>
+            </form>            
+            <div id="resultado">
+                <div id="resLeak" class="container"></div>
+                <div id="resOk" class="container"></div>
             </div>
         </div>
         <!-- César -->
@@ -64,15 +67,15 @@
             <h2 id="subtitulo-Lista-de-dicas" class="título">Lista de dicas de segurança</h2>
 
             <ol class="Lista-de-dicas">
-                <li class="Lista-de-dicas-item">Instale um antivirus deixe sempre atualizado</li>
-                <li class="Lista-de-dicas-item">Configure opções de privacidade com poucas informações visiveis para pessoas que você não conhece
+                <li class="Lista-de-dicas-item">✔ Instale um antivirus deixe sempre atualizado</li>
+                <li class="Lista-de-dicas-item">✔ Configure opções de privacidade com poucas informações visiveis para pessoas que você não conhece
                 </li>
-                <li class="Lista-de-dicas-item">Não preencha formularia com premios e dinheiro em troca de informações</li>
-                <li class="Lista-de-dicas-item">Quando abrir um link em rede social, verifique que o dominio está correto, e não uma pagina falsa
+                <li class="Lista-de-dicas-item">✔ Não preencha formularia com premios e dinheiro em troca de informações</li>
+                <li class="Lista-de-dicas-item">✔ Quando abrir um link em rede social, verifique que o dominio está correto, e não uma pagina falsa
                 </li>
-                <li class="Lista-de-dicas-item">Não seguir pessoas desconhecidas e aceitar pessoas desconhecidas nas redes sociais</li>
-                <li class="Lista-de-dicas-item">Use senhas seguras com combinações de letras maiusculas e minusculas, caracteres e números</li>
-                <li class="Lista-de-dicas-item">Busque nas redes sociais informções sobre arquivos que considere suspeito</li>
+                <li class="Lista-de-dicas-item">✔ Não seguir pessoas desconhecidas e aceitar pessoas desconhecidas nas redes sociais</li>
+                <li class="Lista-de-dicas-item">✔ Use senhas seguras com combinações de letras maiusculas e minusculas, caracteres e números</li>
+                <li class="Lista-de-dicas-item">✔ Busque nas redes sociais informções sobre arquivos que considere suspeito</li>
 
             </ol>
         </div>
@@ -153,11 +156,16 @@
                                                 <div class="footer-bottom">
 
                                                     <p> Live Safe-2022-Todos os direitos reservados </p>
-                                                    <img src="logo.png" alt="LOGO" width="100" height="100">
+                                                    <img src="/imagens/Imagens/logo.png" alt="LOGO" width="100" height="100">
                                                 </div>
 
                                             </div>
                                             <footer>
+
+    <script src="script/dados.js"></script>
+    <script src="script/script.js"></script>
+    <script src="script/filtro.js"></script>
+
 </body>
 
 </html>
