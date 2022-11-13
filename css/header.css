@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sora:wght@200&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,23 +10,22 @@
 }
 
 body{
-    font-family: roboto, sans-serif;
+    font-family: 'Sora', sans-serif;
     background-color:#7e8f94;
+    
 
     
 }
 .logo{
     display: inline-flex;
     align-items: center;
-    padding-top: 40px;
-
-    
-    
-    
-    
+    padding-top: 15px;
+    padding-right: 5px;
+    width: 25%;
 }  
 
 header{
+    font-family: 'Sora', sans-serif;
     height: 10vh;
     display: flex;
     justify-content: space-between;
@@ -30,21 +33,43 @@ header{
     box-shadow:0 0 1rem black;
     padding-top: 22.5px;
 
+
 }
 .header-nav-ul{
+    font-family: 'Sora', sans-serif;
     display: flex;
     margin: 23px;
-
-
+    font-size:10px;
+    padding-bottom: 20px;
+    color: white;
+    border-color: white;
+    margin: auto;
+    padding-right: 25px;
+    padding-top: 10px;
+    
+    
+    
 }
 .header-nav-il{
-    color: whitesmoke;
+    font-family: 'Sora', sans-serif;
+    color: rgb(255, 255, 255);
     list-style-type:none;
     cursor: pointer;
-    padding-left: 2rem;
-    padding-bottom: 16rem;
-    height: fit-content;
-    width: fit-content;
-    font-size: 27px;
+    font-size: 30px;
     text-align: center;
+    justify-content: space-between;
+    font-weight: bolder; 
+    padding: 5px 20px;
+    background: none;
+    color: aliceblue;
+    border-color: white;
+    border-radius: 5px;
+    margin: 7px;
+
+
+    
+    
+    
 }
+
+
