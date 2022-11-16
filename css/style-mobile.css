@@ -1,11 +1,14 @@
-@media screen and (max-width:480px) {
+/* Smartphone */
+@media screen and (max-width: 360px) {
 
 }
 
-@media screen and (max-width:670px) {
+/* Iped/tablet */
+@media screen and (max-width: 1024px) {
 
 }
 
-@media screen and (max-width:896px) {
+/* Desktop */
+@media screen and (max-width: 1920px) {
 
 }
