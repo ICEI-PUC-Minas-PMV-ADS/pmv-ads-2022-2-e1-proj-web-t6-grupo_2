@@ -3,7 +3,7 @@ function filtro(valor, arr){
 	for(var i = 0; i < arr.length; i++) {
 		if (arr[i].nome == valor){
 			resOk.innerHTML = "";
-			resLeak.innerHTML = 'Encontramos vazamentos de dados:<BR>';
+			resLeak.innerHTML = '<p>Encontramos vazamentos de dados:</p>';
 			resLeak.innerHTML += '<ul>';
 			resLeak.innerHTML += '<li>' + arr[i].site + '</li>';
 			resLeak.innerHTML += '<li>' + arr[i].senha + '</li>';
@@ -13,8 +13,7 @@ function filtro(valor, arr){
 		} else {	
 			console.log(arr[i]);
 			resLeak.innerHTML = ""
-			resOk.innerHTML = "<i>Tudo OK:</i> " + valor;
-			
+			resOk.innerHTML = "<p>Boas notícias! Zero brecha: </p><p> " + valor + ".</p>";			
 		};
 	};
 };	
