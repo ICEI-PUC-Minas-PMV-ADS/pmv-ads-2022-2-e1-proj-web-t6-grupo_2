@@ -80,7 +80,7 @@ header{
     margin-bottom: 25px;
     font-weight: bold;
     font-size: 52px;
-    text-shadow: -2px -2px 10px #1B98E0;
+    text-shadow: 2px 2px 2px #1B98E0;
     margin-bottom: 10px;
 }
 .Dicas-de-segurança{
@@ -90,7 +90,7 @@ header{
     text-align: center;
     color: #1B98E0;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 22px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
