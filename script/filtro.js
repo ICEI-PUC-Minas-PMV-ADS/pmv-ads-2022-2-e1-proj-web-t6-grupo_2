@@ -3,7 +3,7 @@ function filtro(valor, arr){
 	for(var i = 0; i < arr.length; i++) {
 		if (arr[i].nome == valor){
 			resOk.innerHTML = "";
-			resLeak.innerHTML += "<p>Péssimo! Você encontrou um vazamento de informação!</p>";
+			resLeak.innerHTML = "<p>Péssimo! Você encontrou um vazamento de informação!</p>";
 			resLeak.innerHTML += '<ul>';
 			resLeak.innerHTML += '<li>' + arr[i].site + '</li>';
 			resLeak.innerHTML += '<li>' + arr[i].senha + '</li>';

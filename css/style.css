@@ -153,13 +153,15 @@ header{
 
 
 /* Dicas */
+
 .div-video{
     text-align: justify;
 }
-#subtitulo-Lista-de-dicas{
+#subtitulo-Lista-de-dicas, .titulo-video{
     font-size: 32px;
     border-bottom: solid 1px #1B98E0;
 }
+
 #dicas{
     position: relative;
     display: flex;
@@ -169,10 +171,17 @@ header{
     padding: 20px;
     box-sizing: border-box;
 }
-
+.section-video{
+    border-right: solid 1px #1B98E0;
+}
+iframe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #13293D;
+}
 .Lista-de-dicas-item{
-    color:#1B98E0;
-    text-shadow: 1px 1px 1px #ccc;
+    color:#fff;
     font-size: 16px;
     padding-top: 25px;
     display: inline-block;
