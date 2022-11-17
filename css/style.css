@@ -1,13 +1,18 @@
 /* Header */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sora:wght@200&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+
 }
 
 body{
     font-family: 'Sora', sans-serif;
     background-color:#7e8f94;
+    
+
+    
 }
 .logo{
     display: inline-flex;
@@ -25,6 +30,8 @@ header{
     background-color: rgb(19,41,62);
     box-shadow:0 0 1rem black;
     padding-top: 22.5px;
+
+
 }
 .header-nav-ul{
     font-family: 'Sora', sans-serif;
@@ -53,6 +60,10 @@ header{
     border-color: white;
     border-radius: 5px;
     margin: 7px;
+    text-decoration: none;
+    transition: 0.2s;
+    border: 1px solid white;    
+    text-transform: uppercase;
 }
 .header-nav-il a:hover{
     background-color: rgb(255, 255, 255);
