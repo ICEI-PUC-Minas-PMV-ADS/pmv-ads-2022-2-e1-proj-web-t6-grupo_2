@@ -1,4 +1,119 @@
-body{
-    background-color: #7e8f94;
-    font-family: 'Sora', sans-serif;
+footer {
+    background-color: #13293D;
+    padding-top:5em;
+    padding-bottom: 10px;
+    border-top: 5px solid #247BA0;
+}
+
+footer h2,footer p,footer a,footer span {
+    color: white;
+}
+
+footer h2 {
+    font-weight: 300;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer u {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+.footer-box {
+    width: 31%;
+    padding: 1%;
+    float: left;
+}
+
+footer.wrapper:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.container-footer p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.company-footer {
+    margin-top: 20px;
+}
+
+.company-footer h2, .company-footer p {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+.footer-list li {
+    margin-top: 15px;
+}
+
+.footer-list a {
+    transition: 5s;
+}
+
+.footer-list a:hover {
+    color: #13293D;
+
+}
+
+.footer-list li::after {
+    clear: both;
+    content: "";
+    display: block;
+
+}
+
+.articles-footer {
+    width: 80%;
+}
+
+.footer-list.footer-articles-list span {
+    display: block;
+    float: none;
+}
+
+.fab {
+    font-size: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.footer-list li span {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+
+
+}
+
+.footer-list h2 {
+    line-height: 30px;
+    float: left;
+    margin-top: 10px;
+
+}
+
+.footer-bottom {
+    border-top: 1pix black;
+}
+
+.footer-bottom img {
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.footer-bottom p {
+    font-weight: 100;
+    margin-top: 40px;
+
 }
