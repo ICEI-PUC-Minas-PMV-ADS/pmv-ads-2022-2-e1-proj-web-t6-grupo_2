@@ -153,16 +153,29 @@ header{
 
 
 /* Dicas */
-.caixa-pesquisa{
-    text-align: center;
+.div-video{
+    text-align: justify;
 }
 #subtitulo-Lista-de-dicas{
     font-size: 32px;
+    border-bottom: solid 1px #1B98E0;
 }
+#dicas{
+    position: relative;
+    display: flex;
+}
+.section-video, .section-list {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 .Lista-de-dicas-item{
     color:#1B98E0;
-    font-size: 20px;
-    margin-top: 4px;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 16px;
+    padding-top: 25px;
+    display: inline-block;
 }
 
 footer {
