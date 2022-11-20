@@ -27,7 +27,7 @@ function filtro(valor, arr){
 			resOk.innerHTML = "<p>Boas notícias! Zero brecha: </p><p> " + valor + ".</p>";			
 		};
 	};
-};	
+};
 
 // Caso o usuário não digite mas clique no botão "Verificar", o sistema retorna uma mensagem de erro
 function error(e){
@@ -37,7 +37,7 @@ function error(e){
 		resLeak.innerHTML = "";
 		resOk.innerHTML = "";
 		// Adicionando a mensagem de erro
-		resNoInput.innerHTML = "<p>Por favor, digite algo.</p>";
+		resNoInput.innerHTML = "<p>Ops! Informe os dados.</p>";
 	};
 };
 // https://warcontent.com/array-find-javascript/
