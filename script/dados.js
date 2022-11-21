@@ -1,7 +1,8 @@
+// Atualizei as senhas de todos os usuário, visando melhorar a autencidade dos dados de nossos personas.
 const dados = [
     {
         nome: 'martahelena@gmail.com', 
-        senha: 123456, 
+        senha: 'Brasil',
         site: 'Google Classroon'
     },
     
@@ -14,13 +15,13 @@ const dados = [
 
     {
         nome: 'francisco_moraes@yahoo.com',
-        senha: '123batata-frita',
+        senha: 'Batman2022',
         site: 'gmail.com'
     },
 
     {
         nome:'antonelasoares@gmail.com',
-        senha: 'antonela_disney',
+        senha: 'felicidade',
         site:'facebook.com'
     }
 
