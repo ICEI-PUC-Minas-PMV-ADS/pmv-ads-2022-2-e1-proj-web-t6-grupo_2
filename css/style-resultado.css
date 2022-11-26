@@ -2,26 +2,43 @@
     background-color: #1B98E0;
     margin: 20px;
     padding: 20px;
-    text-align: center;
     border-radius: 10px;
+    text-align: center;
 }
 
-#resLeak, #resOk {
-    background-color: #006494;
+#resLeak, #resOk, #no-input {
     color: #F0F0F0;
-    width: 50%;
+    width: auto;
     transition: .5s;
     border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#resLeak li, #resOk li, #resLeak p, #resOk p, #no-input p {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
 }
 
 #resLeak {
     box-shadow: 0 0 20px #F00;
+    background-image: linear-gradient(to bottom right, rgb(221, 2, 2), rgb(107, 0, 0));
 }
 
 #resOk {
     box-shadow: 0px 0px 20px #4DBA7A;
+    background-image: linear-gradient(to bottom right, #006300, rgb(0, 102, 0));
 }
 
-.invisivel {
+#no-input {
+    box-shadow: 0px 0px 20px #ffd700;
+    background-image: linear-gradient(to bottom right, #ffd700, #daa520);
+}
+
+.invisible {
 	display: none;
 }
