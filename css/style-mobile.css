@@ -4,151 +4,85 @@ and (min-device-width: 375px)
 and (max-device-width: 667px) 
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
+    body{
+        font-family: 'Sora', sans-serif;
+    }
+    /* Header */
     header{
+        all: unset;
+        background-color: rgb(19,41,62);  
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        position: block;
     }
     .logo{
-        size-adjust: ;
+        all: unset;
+        width: 250px;
+        margin-top: -70px;
+        margin-left: 70px;
+        position: absolute;
+        /* background-color: aqua; */
+    }
+    .header-nav-ul{
+        all: unset;
+        padding-top: 150px;
+        display: flex;
+        position: absolute;
+        list-style-type: none;
+        padding: 120px 50px;
         
     }
-}	 
-
-    
-    
-    /* Dicas */
-    
-    .div-video{
-        text-align: justify;
-    }
-    #subtitulo-Lista-de-dicas, .titulo-video{
-        font-size: 32px;
-        border-bottom: solid 1px #1B98E0;
-    }
-    
-    #dicas{
-       
-       
-    }
-    .section-video, .section-list {
-       
-    }
-    .section-video{
-        border-right: solid 1px #1B98E0;
-    }
-    iframe {
-        
-        border-radius: 10px;
-        box-shadow: 1px 1px 5px #13293D;
-    }
-    .Lista-de-dicas-item{
-        color:#fff;
-    }
-    
-    footer {
-        background-color: #13293D;
-
-    }
-    
-    footer h2,footer p,footer a,footer span {
+    .header-nav-il a{
+        all: unset;
+        padding-left: 10px;
+        padding-right: 10px;
         color: white;
-    }
-    
-    footer h2 {
-        
-    }
-    
-    footer a {
-        text-decoration: none;
-    }
-    
-    footer u {
-       
-    }
-    
-    footer li {
-        list-style: none;
-    }
-    
-    .footer-box {
-    
-    }
-    
-    footer.wrapper:after {
-    }
-    
-    .container-footer p {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    
-    .company-footer {
-        margin-top: 20px;
-    }
-    
-    .company-footer h2, .company-footer p {
-    }
-    
-    /* Rodapé */
-    .footer-list li {
-
-    }
-    
-    .footer-list a {
-        transition: 5s;
-    }
-    
-    .footer-list a:hover {
-        color: #13293D;
-    
-    }
-    
-    .footer-list li::after {
-       
-    
-    }
-    
-    .articles-footer {
-        
-    }
-    
-    .footer-list.footer-articles-list span {
-        
-    }
-    
-    .fab {
-        
-        float: left;
-    }
-    
-    .footer-list li span {
-        
-    
-    
-    }
-    
-    .footer-list h2 {
-        
-    
-    }
-    
-    .footer-bottom {
-      
-    }
-    
-    .footer-bottom img {
-        
-    
-    }
-    
-    .footer-bottom p {
-        
-    
+        border: solid 2px white;
+        text-transform: uppercase;
+        justify-content: space-between;
+        font-size: 20px;
+        border-radius: 5px;
+        margin: 5px;
+        background-color: #13293D;
     }
 
+    .header-nav-il a:hover{
+        all: unset;
+        color: rgb(19,41,62);
+        background-color: white;
+        border-radius: 5px;
+        text-transform: uppercase;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-bottom: solid 2px white;
+        font-size: 20px;
+    }
 
+    /* Main */
+    main .caixa-pesquisa{
+        all: unset;
+        background-color: #13293D;
+        box-shadow: 1px 1px 5px #13293D;
+        position: absolute;
+        margin-top: 180px;
+        width: 95%;
+        margin-left: 10px;
+    }
 
+    /* Dicas */
+    #dicas{
+        all: unset;
+        display: none;
+    }
+
+    /* Footer */
+    footer{
+        display: none;
+    }
 }
 
-
-
+    
 
     
