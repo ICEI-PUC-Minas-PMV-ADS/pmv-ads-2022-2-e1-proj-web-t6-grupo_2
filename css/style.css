@@ -15,11 +15,15 @@ body{
     
 }
 .logo{
-    display: inline-flex;
-    align-items: center;
-    padding-top: 15px;
+    display: flex;
     padding-right: 5px;
-    width: 25%;
+    width: 300px;
+    margin: 10%;
+    margin-top: -105px;
+    height: 300px;
+    padding-bottom: 10px;
+
+
 }  
 
 header{
