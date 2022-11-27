@@ -3,15 +3,250 @@
 and (min-device-width: 375px) 
 and (max-device-width: 667px) 
 and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait) {
-    header{
+and (orientation: portrait){
+    * {
+        all:unset;
     }
-    .logo{
-        size-adjust: ;
+    body{
+        font-family: 'Sora', sans-serif;
+        background-color:#7e8f94;
+        
+    
         
     }
-}	 
-
+    .logo{
+        display: inline-flex;
+        align-items: center;
+        padding-top: 15px;
+        padding-right: 5px;
+        width: 25%;
+    }  
     
+    header{
+       
+        background-color: rgb(19,41,62);
+        box-shadow:0 0 1rem black;
+      
+    
+    
+    }
+    .header-nav-ul{
+        font-family: 'Sora', sans-serif;
+       
+        color: white;
+        border-color: white;
+        
+    }
+    .header-nav-il a{
+        font-family: 'Sora', sans-serif;
+        color: rgb(255, 255, 255);
+        color: aliceblue;
+        border-color: white;
+       
+    }
+    .header-nav-il a:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(19,41,62);
+        border-color: rgb(19,41,62);
+        
+    }
+    
+    /* Main */
+    .caixa-pesquisa {
+        box-shadow: 1px 1px 5px #13293D;
+        background-color: #13293D;   
+        border-radius: 10px;
+    }
+    
+    .título {
+        /* color: #F0F0F0; */
+        /* color: #1B98E0; */
+        color: #E8F1F2;
+        text-shadow: 2px 2px 1px #1B98E0;
+    }
+    .Dicas-de-segurança{
+    
+    }
+    .caixa-pesquisa #subtitulo-principal {
+        
+        color: #1B98E0;
+        
+    }
+    
+    #formulário-pesquisa{
+    
+    }
+    
+    #pesquisa-campo{
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        background-color: #E8F1F2;    
+        color: #1B98E0;
+       
+    }
+    
+    ::placeholder{
+        font-weight: bold;    
+        font-style: italic;
+        color: #1B98E0;
+    }
+    
+    #pesquisa-campo:hover{
+        transform: scale(1.02);
+    }
+    
+    #submit-pesquisa {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        
+        background-color: #1B98E0;    
+        color: #E8F1F2;
+        cursor: pointer;
+        transition: .5s;
+    }
+    
+    #submit-pesquisa:hover{
+        transform: scale(1.1);
+        box-shadow: 1px 1px 10px gray;
+    }
+    
+    
+    
+    /* Dicas */
+    
+    .div-video{
+        text-align: justify;
+    }
+    #subtitulo-Lista-de-dicas, .titulo-video{
+        font-size: 32px;
+        border-bottom: solid 1px #1B98E0;
+    }
+    
+    #dicas{
+       
+       
+    }
+    .section-video, .section-list {
+       
+    }
+    .section-video{
+        border-right: solid 1px #1B98E0;
+    }
+    iframe {
+        
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px #13293D;
+    }
+    .Lista-de-dicas-item{
+        color:#fff;
+    }
+    
+    footer {
+        background-color: #13293D;
+
+    }
+    
+    footer h2,footer p,footer a,footer span {
+        color: white;
+    }
+    
+    footer h2 {
+        
+    }
+    
+    footer a {
+        text-decoration: none;
+    }
+    
+    footer u {
+       
+    }
+    
+    footer li {
+        list-style: none;
+    }
+    
+    .footer-box {
+    
+    }
+    
+    footer.wrapper:after {
+    }
+    
+    .container-footer p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .company-footer {
+        margin-top: 20px;
+    }
+    
+    .company-footer h2, .company-footer p {
+    }
+    
+    /* Rodapé */
+    .footer-list li {
+
+    }
+    
+    .footer-list a {
+        transition: 5s;
+    }
+    
+    .footer-list a:hover {
+        color: #13293D;
+    
+    }
+    
+    .footer-list li::after {
+       
+    
+    }
+    
+    .articles-footer {
+        
+    }
+    
+    .footer-list.footer-articles-list span {
+        
+    }
+    
+    .fab {
+        
+        float: left;
+    }
+    
+    .footer-list li span {
+        
+    
+    
+    }
+    
+    .footer-list h2 {
+        
+    
+    }
+    
+    .footer-bottom {
+      
+    }
+    
+    .footer-bottom img {
+        
+    
+    }
+    
+    .footer-bottom p {
+        
+    
+    }
+
+
+
+}
+
+
+
 
     
