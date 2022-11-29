@@ -24,7 +24,7 @@ function filtro(valor, arr){
 			resLeak.innerHTML = "";
 			resNoInput.innerHTML = "";
 			// Adicionando a nova mensagem
-			resOk.innerHTML = "<p>Boas notícias! Zero brecha: </p><p> " + valor + ".</p>";			
+			resOk.innerHTML = "<p>Boas notícias! : nenhum vazamento de informação foi encontrado!</p><p> " + valor + ".</p>";
 		};
 	};
 };
