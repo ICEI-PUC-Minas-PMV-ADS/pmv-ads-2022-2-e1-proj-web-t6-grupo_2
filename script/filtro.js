@@ -7,8 +7,7 @@ function filtro(valor, arr){
 		// Se o valor digitado pelo usuário for igual a algum valor do array, o sistema retorna uma mensagem de vazamento de informação
 		if (arr[i].nome == valor){
 			// Limpando o campo da mensagem atual
-			resOk.innerHTML = "";
-			resNoInput.innerHTML = "";
+			clearFields();
 			// Adicionando a nova mensagem
 			resLeak.innerHTML = "<p>Péssimo! Você encontrou um vazamento de informação!</p>";
 			resLeak.innerHTML += '<ul>';
@@ -21,8 +20,7 @@ function filtro(valor, arr){
 		} else {	
 			// console.log(arr[i]);
 			// Limpando o campo da mensagem atual
-			resLeak.innerHTML = "";
-			resNoInput.innerHTML = "";
+			clearFields();
 			// Adicionando a nova mensagem
 			resOk.innerHTML = "<p>Boas notícias! : nenhum vazamento de informação foi encontrado!</p><p> " + valor + ".</p>";
 		};
@@ -33,11 +31,16 @@ function filtro(valor, arr){
 function error(e){
 	if (e == ""){
 		// Limpando o campo da mensagem atual
-		resNoInput.innerHTML = "";
-		resLeak.innerHTML = "";
-		resOk.innerHTML = "";
+		clearFields();
 		// Adicionando a mensagem de erro
 		resNoInput.innerHTML = "<p>Ops! Informe os dados.</p>";
 	};
 };
 // https://warcontent.com/array-find-javascript/
+
+//Function who clear result fields
+function clearFields(){
+	resNoInput.innerHTML = "";
+	resLeak.innerHTML = "";
+	resOk.innerHTML = "";
+}
