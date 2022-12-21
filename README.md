@@ -1,12 +1,12 @@
-# TÍTULO DO PROJETO
+# Live Safe
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto Aplicação Web`
 
-`SEMESTRE`
+`1º SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Projeto varre e avisa no ato se há dados dele vazado através da interent.
 
 ## Integrantes
 
@@ -21,7 +21,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+A Aplicação é muito simples, por outro lado muito importante. O usuário digita seu dado que quer verificar no campo de pesquisa e recebe uma mensagem.
 
 # Documentação
 
@@ -41,7 +41,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t6-grupo_2/ 
 
 # Armazenamento do Código-Fonte
 
