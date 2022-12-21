@@ -6,7 +6,7 @@
 
 `1º SEMESTRE`
 
-Projeto varre e avisa no ato se há dados dele vazado através da interent.
+Projeto varre banco de dados já expostos e avisa no ato se há dados do usuário vazado na da interent.
 
 ## Integrantes
 
