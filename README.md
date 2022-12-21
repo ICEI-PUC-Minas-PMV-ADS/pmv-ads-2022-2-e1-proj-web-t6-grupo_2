@@ -6,7 +6,7 @@
 
 `1º SEMESTRE`
 
-Projeto varre banco de dados já expostos e avisa no ato se há dados do usuário vazado na da interent.
+Projeto tem como objetivo varrer a internet (banco de dados já expostos) e avisa no ato se há dados do usuário vazados na interent.
 
 ## Integrantes
 
