@@ -22,7 +22,7 @@ function filtro(valor, arr){
 			// Limpando o campo da mensagem atual
 			clearFields();
 			// Adicionando a nova mensagem
-			resOk.innerHTML = "<p>Boas notícias! : nenhum vazamento de informação foi encontrado!</p><p> " + valor + ".</p>";
+			resOk.innerHTML = "<p>Boas notícias! Nenhum vazamento de informação foi encontrado!</p><p> " + valor + ".</p>";
 		};
 	};
 };
